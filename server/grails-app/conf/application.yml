@@ -115,9 +115,16 @@ environments:
                 jdbcInterceptors: ConnectionState
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
 
+
 grails:
     plugin:
         springsecurity:
+            rest:
+                token:
+                    storage:
+                        jwt:
+                            secret: '58j9my3fp857n42af937s744jg75n38f38fgs93tb454kgf9vkd9fsd95'
+                            expiration: 3600
             userLookup:
                 userDomainClassName: br.com.integracaofornecedor.model.User
                 authorityJoinClassName: br.com.integracaofornecedor.model.UserRole

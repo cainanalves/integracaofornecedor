@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e631548d-b7bf-422b-98f5-19350f290000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/grails-app/controllers/br/com/integracaofornecedor/integracaofornecedor/controller/CrudController.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/groovy/br/com/integracaofornecedor/integracaofornecedor/controller/CrudControllerSpec.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
@@ -11,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/server/grails-app/conf/application.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/conf/application.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/grails-app/conf/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/conf/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/grails-app/controllers/br/com/integracaofornecedor/integracaofornecedor/controller/UserController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/controllers/br/com/integracaofornecedor/integracaofornecedor/controller/UserController.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/grails-app/domain/br/com/integracaofornecedor/model/User.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/domain/br/com/integracaofornecedor/model/User.groovy" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +165,7 @@
       <workItem from="1592670321053" duration="913000" />
       <workItem from="1592673817928" duration="1134000" />
       <workItem from="1592825641687" duration="43000" />
-      <workItem from="1593866612048" duration="5287000" />
+      <workItem from="1593866612048" duration="6986000" />
     </task>
     <servers />
   </component>
@@ -426,5 +426,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/grails-app/controllers/br/com/integracaofornecedor/integracaofornecedor/controller/UserController.groovy</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/grails-app/controllers/br/com/integracaofornecedor/integracaofornecedor/controller/CrudController.groovy</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,14 +1,14 @@
 package br.com.integracaofornecedor.integracaofornecedor.controller
 
-
+import br.com.integracaofornecedor.model.User
 import grails.rest.*
 import grails.converters.*
 
-class UserController {
+class UserController extends CrudController {
 	static responseFormats = ['json', 'xml']
-	
-    def index() {
 
-        render "User controller"
+    UserController() {
+        super( User )
     }
+
 }
