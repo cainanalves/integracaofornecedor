@@ -7,5 +7,8 @@ import grails.converters.*
 class UserController {
 	static responseFormats = ['json', 'xml']
 	
-    def index() { }
+    def index() {
+
+        render "User controller"
+    }
 }
